@@ -1,0 +1,148 @@
+html {
+  scroll-behavior: smooth;
+}
+.grid-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+/* Style for each grid */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+/* Style for each image */
+.image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+/* Style for the popup */
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 50px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+}
+/* Style for overlay */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+}
+/* Style for close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+
+.home {
+  padding: 2.5em 1em;
+  min-height: 100vh;
+  text-align: center;
+  background-image: url(images/Background_2.jpg);
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-bar {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+  
+  .top-bar .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px 20px;
+  }
+  
+  .top-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .top-bar ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .top-bar ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .top-bar ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+  }
+  
+  .top-bar ul li a:hover {
+    color: #ddd;
+  }
+
+
+  body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 50px 0;
+  text-align: center;
+}
+p{
+  color: rgb(0, 0, 0);
+
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.email-link a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #ffffff; /* You can change this to any desired color */
+}
+
